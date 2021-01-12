@@ -163,12 +163,12 @@ public final class MinecraftServer {
         connectionManager = new ConnectionManager();
         // Networking
         packetProcessor = new PacketProcessor();
+        commandManager = new CommandManager();
         packetListenerManager = new PacketListenerManager();
 
         instanceManager = new InstanceManager();
         blockManager = new BlockManager();
         entityManager = new EntityManager();
-        commandManager = new CommandManager();
         recipeManager = new RecipeManager();
         storageManager = new StorageManager();
         dataManager = new DataManager();
